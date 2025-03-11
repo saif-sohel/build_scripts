@@ -11,7 +11,7 @@ echo "Setting up AOSP build environment for Arch Linux"
 
 # Install base development packages
 echo "Installing base development packages..."
-sudo pacman -S --needed --noconfirm base-devel git gnupg ccache
+sudo pacman -S --needed --noconfirm base-devel git git-lfs gnupg ccache
 
 # Install AOSP required packages
 echo "Installing AOSP required packages..."
